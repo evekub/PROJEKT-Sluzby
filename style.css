@@ -1,0 +1,161 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+
+body {
+background-color: #FAFAFA;
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+color: #8B8B8B;
+
+}
+
+
+.kontejner {
+    display: flex;
+    justify-content: center;
+    background-color: #FAFAFA;
+    border-radius: 1px;
+    border-color: #8B8B8B;
+    box-shadow: 0.5px 0.5px 1px 1px #8B8B8B;
+    margin-left: auto; 
+    margin-right: auto;
+    position: relative;
+    width: 1200px;
+    flex-wrap: wrap;
+}
+
+
+.cestovatel { max-width: 425px;
+    margin-left: 90px;
+    margin-top: 60px;
+    margin-right: 110px;
+   
+}
+
+h1 {color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    margin-top: 150px;
+    flex-shrink: 0;
+}
+
+.prvniodstavec {
+    margin-bottom: 40px;
+    width: 490px;
+    height: 65px;
+    flex-shrink: 0;
+}
+
+
+.box1 {
+    margin-left: 80px;
+
+    }     
+
+
+.prvni {
+    width: 195px;
+    height: 40px;
+    background-color: #407BFF;
+    color: white;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    border-radius: 30px;
+    padding: 11px 30px 11px 30px;
+    margin-right: 20px;
+    flex-shrink: 0;
+
+}
+
+.druhy {
+        width: 220px;
+        height: 40px;
+        background-color: #8B8B8B;
+        color: white;
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        text-align: center;
+        border-radius: 30px;
+        padding: 11px 30px 11px 30px;
+        flex-shrink: 0;
+    
+    }
+
+
+a {text-decoration: none;
+            }
+            
+.prvni:hover {background-color: #8B8B8B;
+            color: white;}
+            
+.druhy:hover {background-color:  #407BFF;
+                color: white;}
+            
+
+
+
+h2 {color: #000000;
+    font-family: 'Montserrat', sans-serif;
+         font-size: 16px;
+    
+                
+ }
+
+
+
+.box2 {display: flex;
+justify-content: space-between;
+margin-top: 80px;
+margin-left: 80px;
+margin-bottom: 80px;
+margin-right: 80px;
+}      
+
+.box22 {display: flex;
+    width: 550px;
+    
+} 
+
+.mapa,.kaktus,.letadlo,.palma,.slunecnik,.auto {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #8B8B8B;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    border-radius: 10px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 40px 15px 40px 15px;
+    flex-basis: 30%;
+    flex-shrink: 0;
+
+} 
+
+.text2 {margin-left:40px ;
+    width: 430px;
+}
+
+.box3 {display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-bottom: 60px;
+    margin-right: 80px;
+}  
+                 
+.box33 {display: flex;
+    width: 550px;
+
+} 
+
+
+
+.text3 {
+    width: 430px;
+margin-right: 60px;
+} 
+
+    
